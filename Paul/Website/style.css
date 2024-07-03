@@ -1,0 +1,85 @@
+/* External CSS file: style.css */
+
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+}
+
+html, body {
+    height: 100%; /* Ensure body takes up the full viewport */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Light gray for body background */
+}
+
+.wrapper {
+    width: 60%; /* Wrapper width set to 60% */
+    margin: 0 auto; /* Center the wrapper */
+    height: 100%; /* Wrapper covers the full height of the body */
+    background-color: white; /* White background for the wrapper */
+    display: flex; /* Make wrapper a flex container */
+    flex-direction: column; /* Flex column to maintain vertical order */
+}
+
+header {
+    background-color: #003366; /* Dark blue for the header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #e0e0e0; /* Light gray background for the menu */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; /* Inline menu items */
+    margin-right: 15px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366; /* Dark blue links */
+}
+
+.container {
+    flex: 1; /* Make the container flex to fill the remaining height */
+    display: flex; /* Flexbox layout for the content */
+}
+
+.content {
+    flex: 2; /* Larger content area */
+    padding: 40px;
+}
+
+.sidebar {
+    flex: 1; /* Smaller sidebar area */
+    padding: 20px;
+    background-color: #f2f2f2; /* Light gray background for the sidebar */
+}
+
+.float-right {
+    float: right; /* Float image to the right */
+    margin: 0 0 10px 10px; /* Margin for spacing */
+    width: 100px; /* Resize image to 30x30 */
+    height: 100x; /* Resize image to 30x30 */
+}
+
+.clear {
+    clear: both; /* Clear floating elements */
+}
+
+footer {
+    background-color: #003366; /* Dark blue for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

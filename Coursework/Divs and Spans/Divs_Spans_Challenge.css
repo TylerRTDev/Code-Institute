@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div > div {
+    background: #c6f6c6;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+body > div:nth-of-type(3) {
+    text-align: center;
+}
+
+div:nth-of-type(3) span {
+    color: blue;
+    text-decoration: underline;
+}
+
+

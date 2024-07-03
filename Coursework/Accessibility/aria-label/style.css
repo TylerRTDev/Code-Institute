@@ -1,0 +1,14 @@
+.full-height {
+    min-height: 100vh;
+    text-align: center;
+}
+#menu {
+    position: fixed;
+    top: 0;
+}
+#about {
+    background: lightblue;
+}
+#contact {
+    background: cyan;
+}

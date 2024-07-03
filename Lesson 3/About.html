@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Bootstrap Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <style>
+        /* Background with a gradient from gray to pastel blue */
+        body {
+            background: linear-gradient(to bottom, #bdc3c7, #aec6cf);
+            padding-top: 70px;
+            /* Padding for the fixed navbar */
+        }
+
+        /* White background for content sections with a subtle shadow */
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            /* Optional rounded corners */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            /* Light shadow for depth */
+        }
+
+        /* Navbar with cool gray background */
+        /* New styles for the menu bar */
+        .navbar {
+            background-color: #2F4F4F;
+            /* Dark slate gray */
+        }
+
+        .nav-link {
+            color: #FFFFFF;
+            /* White text */
+        }
+
+        .nav-link:hover {
+            color: #85C1E9;
+            /* Light blue hover effect */
+        }
+
+        .nav-link:active {
+            border-bottom: 2px solid #100de4;
+            /* Light blue underline for active item */
+        }
+
+        .navbar-brand {
+            color: #FFFFFF;
+            /* White text for brand */
+        }
+
+        /* Button styling with navy blue and white text */
+        .btn-primary {
+            background-color: #2c3e50;
+            /* Navy blue button */
+            border-color: #2c3e50;
+            color: white;
+            /* White text for contrast */
+        }
+
+        /* Hover effect for the button - pastel blue */
+        .btn-primary:hover {
+            background-color: #aec6cf;
+            /* Light blue on hover */
+            border-color: #aec6cf;
+        }
+
+        /* Section titles in navy blue for consistency */
+        h1,
+        h2,
+        h3,
+        h5 {
+            color: #2c3e50;
+        }
+
+        /* Form elements with a consistent border color */
+        .form-control {
+            border: 1px solid #bdc3c7;
+            /* Cool gray border */
+        }
+
+        /* Button for form submit with a darker blue on hover */
+        .form-control:focus {
+            border-color: #2c3e50;
+            /* Navy blue focus */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar with Fixed-Top and 3 Links -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4" id="about">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+    </div>
+
+    <div class="container mt-4" id="about">
+        <h3>Testimonials</h3>
+        <ul class="testimonials">
+            <li>
+                <img src="image1.jpg" alt="James">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="image2.jpg" alt="Lilly">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li>
+                <img src="image3.jpg" alt="Ed">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

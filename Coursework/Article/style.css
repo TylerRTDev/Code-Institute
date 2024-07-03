@@ -1,0 +1,16 @@
+article {
+	border: 2px solid green;
+	padding: 1rem;
+	margin: .5rem;
+}
+footer {
+	color: white;
+	background-color: grey;
+	padding: 0.1rem 1rem;
+}
+
+section {
+	border: 1px solid black;
+	padding: 0.5rem;
+	margin: .5rem;
+}

@@ -1,0 +1,16 @@
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid navy;
+    font-style: italic;
+    color: navy;
+}
+section {
+	display: flex;
+}
+
+section p {
+	width: 60%;
+}

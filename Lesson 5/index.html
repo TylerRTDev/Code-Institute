@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Bootstrap Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Background with a gradient from gray to pastel blue */
+        body {
+            background: linear-gradient(to bottom, #bdc3c7, #aec6cf);
+            padding-top: 70px;
+            /* Padding for the fixed navbar */
+        }
+
+        /* White background for content sections with a subtle shadow */
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            /* Optional rounded corners */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            /* Light shadow for depth */
+        }
+
+        /* Navbar with cool gray background */
+        /* New styles for the menu bar */
+        .navbar {
+            background-color: #2F4F4F;
+            /* Dark slate gray */
+        }
+
+        .nav-link {
+            color: #FFFFFF;
+            /* White text */
+        }
+
+        .nav-link:hover {
+            color: #85C1E9;
+            /* Light blue hover effect */
+        }
+
+        .nav-link:active {
+            border-bottom: 2px solid #100de4;
+            /* Light blue underline for active item */
+        }
+
+        .navbar-brand {
+            color: #FFFFFF;
+            /* White text for brand */
+        }
+
+        /* Button styling with navy blue and white text */
+        .btn-primary {
+            background-color: #2c3e50;
+            /* Navy blue button */
+            border-color: #2c3e50;
+            color: white;
+            /* White text for contrast */
+        }
+
+        /* Hover effect for the button - pastel blue */
+        .btn-primary:hover {
+            background-color: #aec6cf;
+            /* Light blue on hover */
+            border-color: #aec6cf;
+        }
+
+        /* Section titles in navy blue for consistency */
+        h1,
+        h2,
+        h5 {
+            color: #2c3e50;
+        }
+
+        /* Form elements with a consistent border color */
+        .form-control {
+            border: 1px solid #bdc3c7;
+            /* Cool gray border */
+        }
+
+        /* Button for form submit with a darker blue on hover */
+        .form-control:focus {
+            border-color: #2c3e50;
+            /* Navy blue focus */
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+         }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar with Fixed-Top and 3 Links -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#media">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section with Cards and Button -->
+    <div class="container mt-4" id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <!-- Button that triggers a JavaScript alert -->
+        <button class="btn btn-primary" onclick="showAlert()">Click Me!</button>
+
+        <!-- Example of Cards -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/computer.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/server.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/mobile.jpg" class="card-img-top" alt="Sample Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container mt-4" id="about">
+        <h2>About Us</h2>
+        <p>The Beatles, a rock band formed in Liverpool, England in 1960, are widely regarded as the most influential band of all time. 
+            Led by the songwriting duo of John Lennon and Paul McCartney, The Beatles revolutionized popular music with their innovative blend of rock and roll, pop, and other genres. 
+            Their catchy melodies, tight harmonies, and witty lyrics fueled hits like "I Want to Hold Your Hand" and "Hey Jude," propelling them to international superstardom and making them cultural icons of the 1960s. 
+            Their influence transcended music, impacting fashion with their mop-top haircuts and collarless suits, inspiring a generation to embrace individuality. 
+            Their films like "Help!" and "A Hard Day's Night" ushered in a new wave of rock musicals. But perhaps their most profound impact was on social movements. 
+            Their lyrics tackled themes of love, peace, and social change, resonating with a generation yearning for a different world. 
+            The Beatles' legacy continues to inspire musicians, artists, and activists today, solidifying their place as one of the most important cultural forces of the 20th century.</p>
+    </div>
+
+    <!-- Media Section -->
+    <div class="container mt-2" id="media">
+        <h2>Media</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/beatles.jpg" class="card-img-top" alt="Sample Image">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/beatles.jpg" class="card-img-top" alt="Sample Image">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/beatles.jpg" class="card-img-top" alt="Sample Image">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col mt-4">
+            <div class="block-centre">
+                <iframe width="600" height="345" src="https://www.youtube.com/embed/CGj85pVzRJs"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section with Form -->
+    <div class="container mt-4" id="contact">
+        <h2>Contact Us</h2>
+        <div class="row"> <!-- Bootstrap row for layout -->
+            <!-- Contact Form - Left Side -->
+            <div class="col-md-6"> <!-- Half-width column -->
+                <form action="javascript:showAlert()" method="post">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <!-- Google Maps Link - Right Side -->
+            <div class="col-md-6"> <!-- Half-width column -->
+                <h3>Our Location</h3>
+                <p>Find us at Warwick Castle in the UK:</p>
+                <iframe width="90%" height="300" style="border:0;" frameborder="0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" aria-hidden="false" tabindex="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.0801217725066!2d-1.5910538241499932!3d52.27824737199875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870cb4441162143%3A0x2959a3d7dd5df385!2sWarwick%20Castle!5e0!3m2!1sen!2suk!4v1715113339382!5m2!1sen!2suk"></iframe>
+
+            </div>
+        </div>
+
+
+        <!-- JavaScript Dependencies for Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <!-- Popper.js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Bootstrap.js -->
+
+        <!-- JavaScript for Button Interaction -->
+        <script>
+            function showAlert() {
+                alert("Form Submitted!! \n\nActually, not really. \nWe need to some backend code to process and send this message");
+            }
+        </script>
+</body>
+
+</html>
