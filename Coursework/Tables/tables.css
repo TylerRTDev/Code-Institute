@@ -1,0 +1,17 @@
+table {
+	width: 70%;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr, th, td {
+	text-align: left;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}

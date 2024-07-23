@@ -1,0 +1,45 @@
+Task 1
+Create an array of your favorite books. Perform the following operations:
+ 
+1) Add a new book to the end of the array.
+2) Remove the first book from the array.
+3) Find the index of a specific book.
+4) Print the updated array.
+ 
+Task 2
+Create a list of numbers from 1 to 5. Perform the following operations:
+ 
+Add the number 6 to the end of the list.
+Remove the number at index 3.
+Iterate over the list and print each number.
+ 
+Task 3
+Create an object to store information about a car. Include properties for make, model, and year. Perform the following operations:
+ 
+Add a new property for color.
+Update the year of the car.
+Print the updated object.
+ 
+Task 4
+Create a set of your favorite fruits. Perform the following operations:
+ 
+Add a new fruit to the set.
+Check if a specific fruit is in the set.
+Remove a fruit from the set.
+Print the updated set.
+ 
+Task 5
+Create a map to store the names and ages of three people. Perform the following operations:
+ 
+Add a new person to the map.
+Update the age of an existing person.
+Delete a person from the map.
+Print the updated map.
+ 
+Task 9
+Create a stack to manage a collection of book titles. Perform the following operations:
+ 
+Add three books to the stack.
+Remove the top book from the stack.
+Check the top book in the stack.
+Print the updated stack.
