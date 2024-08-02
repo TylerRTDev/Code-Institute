@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Simple JS Program</title>
+
+    <script>
+
+        function calculateAndDisplay() {
+
+            // Prompt the user for two numbers
+
+            var num1 = parseFloat(prompt("Enter the first number:"));
+            var opType = prompt("Enter operator value:");
+            var num2 = parseFloat(prompt("Enter the second number:"));
+            var result;
+
+            if (opType == "+")
+            {
+                result = num1 + num2;
+            }
+            else if (opType == "-")
+            {
+                result = num1 - num2;
+            }
+            else if (opType == "*")
+            {
+                result = num1 * num2;
+            }
+            else if (opType == "/")
+            {
+                result = num1 / num2;
+            }
+            else
+            {
+                console.log("Invalid Operator")
+            }
+
+            // Display the result inside a <p> tag
+
+            document.getElementById("result").innerHTML = "The result is: " + result;
+
+        }
+
+    </script>
+
+</head>
+
+<body onload="calculateAndDisplay()">
+
+    <p id="result"></p>
+
+</body>
+
+</html>
