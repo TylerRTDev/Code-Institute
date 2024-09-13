@@ -1,0 +1,20 @@
+<!-- Use vh units to set the size of the div with class vhbox -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Viewport Height</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <style>
+            .vhbox {
+                background: yellow;
+                height: 30vh;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="vhbox">
+            <p>I take up 30% of the viewport height</p>
+        </div>
+    </body>
+</html>
